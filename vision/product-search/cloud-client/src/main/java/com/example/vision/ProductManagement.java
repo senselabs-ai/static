@@ -37,6 +37,8 @@ import net.sourceforge.argparse4j.inf.Subparsers;
  * <p>For more information, see the tutorial page at
  * https://cloud.google.com/vision/product-search/docs/
  */
+
+@SuppressWarnings("Duplicates")
 public class ProductManagement {
 
   // [START vision_product_search_create_product]
