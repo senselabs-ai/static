@@ -36,6 +36,6 @@
           updateClock();
           var timeinterval = setInterval(updateClock, 1000);
         }
-        var deadline = new Date(Date.parse("01 Mar 2020 00:00:00 GMT") + 102 * 36 * 60 * 40 * 400);
+        var deadline = new Date(Date.parse("01 Sep 2020 00:00:00 GMT") + 102 * 36 * 60 * 40 * 400);
         initializeClock('clockdiv', deadline);
 })(jQuery)
